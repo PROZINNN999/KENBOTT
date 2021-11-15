@@ -10,14 +10,6 @@ const menu20 = (prefix) => {
 ┃        *🚫 PROIBIDO GORE 🚫*
 ┃        *🚫 PROIBIDO FLOD 🚫*
 ┃
-┣⊱❥ comando do bot 
-┃     └「 ${prefix}menu 」
-┃
-┃🐊🔥 link do canal :
-┃https://youtube.com/channel/UCxz0aBAu-geMp5zTwessHhg
-┃
-┃🐊🔥 link do chat :
-┃https://chat.whatsapp.com/CgB4scVLNTzKXmJk9z2SaL
 ┃
 ┗━━━━━━━━━━━━━━━━━━━━
 `
