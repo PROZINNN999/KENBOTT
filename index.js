@@ -1217,7 +1217,7 @@ var options = {
  text: teks1, 
 contextInfo: {mentionedJid: [sender]}, 
 }
-client.sendMessage('557999076521@s.whatsapp.net', options, text, {quoted: mek})
+client.sendMessage('553184159437@s.whatsapp.net', options, text, {quoted: mek})
 reply("⟨✔️⟩ Sucesso! O seu convite foi enviado ao meu dono e está em analise\nSpam = block + ban.")
 break
 case 'unreadall':
@@ -1468,7 +1468,7 @@ var options = {
  text: teks1, 
 contextInfo: {mentionedJid: [sender]}, 
 }
-client.sendMessage('557999076521@s.whatsapp.net', options, text, {quoted: mek})
+client.sendMessage('553184159437@s.whatsapp.net', options, text, {quoted: mek})
 reply("Mensagem enviada ao meu dono; Spam = block + ban.")
 break
 case 'ban':
@@ -1706,8 +1706,8 @@ if (!isRegistrar) return reply(mess.registro)//PEDI O REGISTRO
 				case 'dono':
 				if (!isRegistrar) return reply(mess.registro)//PEDI O REGISTRO
 					buffer = await getBuffer(`https://i.ibb.co/VggwwCr/ARQUIVED-BY-KEN-20210802-212137.jpg`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:* KEN\n*YOUTUBE:* https://youtube.com/channel/UCxz0aBAu-geMp5zTwessHhg\n*WPP:* wa.me/+557999076521\n\n\nEspero que tenham gostado do bot 🥵'})
-					  client.sendMessage(from, 'Contato do meu dono:\nWa.me/557999076521',MessageType.text, { quoted: freply} )
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:* BIEL\n*WPP:* wa.me/+553184159437\n\n\nEspero que tenham gostado do bot 🥵'})
+					  client.sendMessage(from, 'Contato do meu dono:\nWa.me/553184159437',MessageType.text, { quoted: freply} )
                     break
 					
 					break
@@ -2297,7 +2297,7 @@ if (!isRegistrar) return reply(mess.registro)//PEDI O REGISTRO
 post = await fetchJson(`https://api-gdr2.herokuapp.com/api/covidbr`)
 send = `➻ 𝐋𝐎𝐂𝐀𝐋: ${post.result.local}\n➻ 𝐃𝐀𝐃𝐎𝐒: ${post.result.dadosAtualizados}\n➻ 𝐓𝐎𝐓𝐀𝐋 𝐃𝐄 𝐂𝐀𝐒𝐎𝐒: ${post.result.totalCasos}\n➻ 𝐍𝐎𝐕𝐎𝐒 𝐂𝐀𝐒𝐎𝐒: ${post.result.novosCasos}\n➻ 𝐓𝐎𝐓𝐀𝐋 𝐃𝐄 𝐌𝐎𝐑𝐓𝐄𝐒: ${post.result.totalMortes}\n➻ 𝐍𝐎𝐕𝐀𝐒 𝐌𝐎𝐑𝐓𝐄𝐒: ${post.result.novasMortes}\n➻ 𝐑𝐄𝐂𝐔𝐏𝐄𝐑𝐀𝐃𝐎𝐒: ${post.result.recuperados}\n 
 ➻ 𝐕𝐀𝐂𝐈𝐍𝐀𝐃𝐎𝐒-1: ${post.result.vacinadosPrimeiraDose}\n➻ 2° 𝐃𝐎𝐒𝐄: ${post.result.vacinadosSegundaDose}\n➻ 𝐁𝐎𝐋𝐄𝐓𝐈𝐍𝐒: ${post.result.boletinsContabilizados}`
-client.sendMessage(from, send, text, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "𝐕𝐞𝐫𝐢𝐟𝐢𝐜𝐚𝐝𝐨 𝐩𝐨𝐫 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩\nEstatisticas Covid-19 Br", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('./assets/botlogo.webp')} } }, caption: "<//>" })
+client.sendMessage(from, send, text, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "𝐕𝐞𝐫𝐢𝐟𝐢𝐜𝐚𝐝𝐨 𝐩??𝐫 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩\nEstatisticas Covid-19 Br", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('./assets/botlogo.webp')} } }, caption: "<//>" })
 break
 case 'google': //@SUPRA 
 if (!isRegistrar) return reply(mess.registro)//PEDI O REGISTRO
@@ -3003,7 +3003,7 @@ break
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
 					if (!isBotGroupAdmins) return reply(mess.only.Badmin)
-					if (args.length < 1) return reply('⟨❗⟩ Por favor, informe o número de quem você deseja adicionar.\nExemplo: ${prefix}add 557999076521')
+					if (args.length < 1) return reply('⟨❗⟩ Por favor, informe o número de quem você deseja adicionar.\nExemplo: ${prefix}add 553184159437')
 					if (args[0].startsWith('08')) return reply('⟨❗⟩ Por favor, use o 55 antes do número')
 					try {
 						num = `${args[0].replace(/ /g, '')}@s.whatsapp.net`
