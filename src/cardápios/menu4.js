@@ -12,7 +12,7 @@ const menu4 = (prefix) => {
 ┃
 ┣⊱❥ Caso tenha outra proposta
 ┃    venha no pv do meu dono
-┃     └「 wa.me/557999076521 」
+┃     └「 wa.me/553184159437 」
 ┃
 ┗━━━━━━━━━━━━━━━━━━━━
 `
